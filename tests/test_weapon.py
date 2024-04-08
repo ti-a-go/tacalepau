@@ -1,4 +1,4 @@
-from poetry_demo.models.weapon import Weapon, WeaponType
+from tacalepau.models import Weapon, WeaponType
 
 
 def test_weapon_level_1_damage_should_be_between_2_and_3():

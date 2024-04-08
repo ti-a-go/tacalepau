@@ -1,6 +1,6 @@
 from enum import Enum
 
-from poetry_demo.models import SurvivalMode
+from tacalepau.models import SurvivalMode
 
 
 class GameMode(Enum):

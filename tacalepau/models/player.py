@@ -1,6 +1,6 @@
 from random import uniform
 
-from poetry_demo.models.character import Character
+from .character import Character
 
 
 class Player(Character):

@@ -1,4 +1,4 @@
-from poetry_demo.models.survival_mode import SurvivalMode
+from tacalepau.models import SurvivalMode
 
 
 def test_instantiation():

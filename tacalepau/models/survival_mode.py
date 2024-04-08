@@ -1,10 +1,9 @@
 import os
 
-from poetry_demo.models.battle import Battle
-from poetry_demo.models.player import Player
-from poetry_demo.models.enemy import Enemy
-from poetry_demo.models.health_bar import HealthBar
-from poetry_demo.commands import Commands
+from .battle import Battle, Commands
+from .player import Player
+from .enemy import Enemy
+from .health_bar import HealthBar
 
 
 class SurvivalMode:

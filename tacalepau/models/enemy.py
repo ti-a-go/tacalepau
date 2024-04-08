@@ -1,5 +1,5 @@
-from poetry_demo.models.character import Character
-from poetry_demo.models.weapon import Weapon
+from .character import Character
+from .weapon import Weapon
 
 
 class Enemy(Character):

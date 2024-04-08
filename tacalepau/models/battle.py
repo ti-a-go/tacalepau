@@ -1,9 +1,15 @@
 from typing import Optional
+from enum import Enum
 
-from poetry_demo.models.player import Player
-from poetry_demo.models.enemy import Enemy
-from poetry_demo.models.character import Character
-from poetry_demo.commands import Commands
+from .player import Player
+from .enemy import Enemy
+from .character import Character
+
+
+class Commands(str, Enum):
+    ATTACK = "a",
+    CURE = "c",
+    COUNTER_ATTACK = "ca"
 
 
 class Battle:

@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "poetry-demo"
+name = "tacalepau"
 version = "0.1.0"
 description = ""
 authors = ["--add <tiagosn06@gmail.com>"]

@@ -1,6 +1,6 @@
 from random import randint
 
-from poetry_demo.models import Character, Weapon
+from tacalepau.models import Character, Weapon
 
 
 name = "Foia Seca"

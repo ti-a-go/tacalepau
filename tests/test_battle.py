@@ -1,5 +1,4 @@
-from poetry_demo.models import Battle, Player, Enemy
-from poetry_demo.commands import Commands
+from tacalepau.models import Battle, Player, Enemy, Commands
 
 
 def test_instantiation():

@@ -1,7 +1,6 @@
 from __future__ import annotations
 
-from poetry_demo.models.health_bar import HealthBar
-from poetry_demo.models.weapon import Weapon, WeaponType
+from .weapon import Weapon, WeaponType
 
 
 class Character:

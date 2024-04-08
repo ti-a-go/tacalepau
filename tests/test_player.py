@@ -1,4 +1,4 @@
-from poetry_demo.models.player import Player
+from tacalepau.models import Player
 
 
 def test_counter_attack__should_return_a_damage():

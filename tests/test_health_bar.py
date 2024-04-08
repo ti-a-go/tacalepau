@@ -1,4 +1,4 @@
-from poetry_demo.models import Character, HealthBar
+from tacalepau.models import Character, HealthBar
 
 
 def test_health_bar_instantiation():
